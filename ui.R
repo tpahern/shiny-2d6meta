@@ -16,8 +16,8 @@ fluidPage(theme = shinytheme("cosmo"),
   	    
 	      radioButtons("metatype", 
 	                   label=h3("Select type of meta-analysis:"), 
-	                   choices=c("Conventional", "Bayesian"), 
-	                   selected="Conventional"),
+	                   choices=c("Conventional (frequentist)", "Bayesian"), 
+	                   selected="Conventional (frequentist)"),
   	    shiny::actionLink("whatmeta", label=h5("Help me choose")),
   	    hr(),
   	    
@@ -48,7 +48,7 @@ fluidPage(theme = shinytheme("cosmo"),
 	    	               shiny::actionLink("whattau", label=h5("Help me choose"))
 	    	),
 	    	
-	    	conditionalPanel(condition="input.metatype=='Conventional'",
+	    	conditionalPanel(condition="input.metatype=='Conventional (frequentist)'",
 	    	                 radioButtons("metamethod",
 	    	                              label=h3("Select model:"),
 	    	                              choices = c("Fixed effects", "Random effects"),
@@ -110,7 +110,7 @@ fluidPage(theme = shinytheme("cosmo"),
                              selected=tumordna)
           ),
 	   
-	        conditionalPanel(condition="input.metatype=='Conventional'",
+	        conditionalPanel(condition="input.metatype=='Conventional (frequentist)'",
 	                         shiny::actionButton("mkitso_c", label=h4("Run analysis"), width='100%')
 	                         ),
 	        conditionalPanel(condition="input.metatype=='Bayesian'",
@@ -127,12 +127,13 @@ fluidPage(theme = shinytheme("cosmo"),
 	   a(shiny::actionButton(inputId = "email1", 
 	                  label = "Contact us!", 
 	                  icon = icon("envelope", lib = "font-awesome")),
-	     href="mailto:02tahern@med.uvm.edu")
+	     href="mailto:02tahern@med.uvm.edu"),
+	   shiny::actionLink("getgit", label=h5("Click for source code"), width='100%', onclick="window.open('https://github.com/tpahern/shiny-2d6meta')"),
 		),
 	  
 		mainPanel(
 		  fluidRow(
-		  conditionalPanel(condition="input.metatype=='Conventional'",
+		  conditionalPanel(condition="input.metatype=='Conventional (frequentist)'",
 		    tabsetPanel(tabPanel("Forest plot", plotOutput("forest_conv", height="auto")),
 		                tabPanel("Funnel plot", plotOutput("rmafunnel")),
 		                tabPanel("Study information", DT::dataTableOutput("studytable")),
