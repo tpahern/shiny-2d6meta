@@ -38,7 +38,8 @@ fluidPage(theme = shinytheme("cosmo"),
                     	             max=NA,
                     	             step=0.05
                     	             ),
-	    	               h5("Your prior will be displayed below, after you click 'Run analysis'"),
+	    	               h5("Your prior will be displayed below, after you click 'Run analysis'; 
+	    	                  computations may take several seconds to complete."),
 	    	               hr(),
 	    	               radioButtons("tauprior",
 	    	                            label=h4("Select prior for tau (heterogeneity parameter):"),
