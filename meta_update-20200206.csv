@@ -1,0 +1,37 @@
+author_year,year,pmid,rrpoint,lcl95,ucl95,dnasource,country,caucasian,asian,variants
+"Abraham, 2010",2010,20731819,1.13,0.84,1.54,Non-neoplastic,U.K.,1,0,*4 *5 *6 *9 *10 *41
+"Ahern, 2020",2020,31932415,1.33,0.83,2.12,Tumor,Denmark,1,0,*4
+"Argalacsova, 2017",2017,29135105,4.04,0.31,52.19,Non-neoplastic,Czech Republic,1,0,AmpliChip CYP450
+"Bijl, 2009",2009,19189212,4.1,1.1,15.9,Non-neoplastic,Netherlands,1,0,*4
+"Chamnanphon, 2013",2013,23776391,1.68,0.6,4.73,Non-neoplastic,Thailand,0,1,AmpliChip CYP450
+"Damodaran, 2012",2012,22623212,7.29,2.92,18.17,Non-neoplastic,India,0,0,*2 *4 *5 *10
+"De Ameida Melo, 2016",2016,27882219,1.19,0.03,48,Non-neoplastic,Brazil,0,0,*4 *10 *17
+"Dezentje, 2013",2013,23842856,1.01,0.57,1.78,Tumor,Netherlands,1,0,*3 *4 *6 *14 *41
+"Goetz, 2005",2005,16361630,1.85,0.76,4.52,Tumor,U.S.,1,0,*4 *6
+"Goetz, 2013",2013,23213055,2.45,1.05,5.73,Non-neoplastic,Austria,1,0,*3 *4 *6 *10 *41
+"Gor, 2010",2010,20459744,0.99,0.5,1.99,Non-neoplastic,Multi-center,1,0,*4
+"He, 2019",2019,31800347,2.59,1.01,6.67,Non-neoplastic,Sweden,1,0,"*2, *2A, *3, *4, *6, *7, *8, *9, *10, *14, *17, *29, *35, *41A"
+"Hertz, 2017",2017,28730340,0.9,0.41,2,Tumor,U.S.,1,0,*2 *3 *4 *6 *10 *41
+"Johansson, 2016",2016,27484880,2.5,1.01,6.25,Non-neoplastic,Multi-center,1,0,*3 *4 *5 *6 *7 *8 *9 * 10 *12 *14 *17 *29 *41
+"Kiyotani, 2010",2010,20124171,9.52,2.79,32.45,Non-neoplastic,Japan,0,1,*4 *6 *10 *14 *18 *21 *36 *41
+"Lan, 2018",2018,29396856,1.87,1.19,2.93,Non-neoplastic,China,0,1,"*2A, *10, *82, *90, *91, *94, rs1135840, rs1080989, rs28680494"
+"Lash, 2011",2011,21325141,1.4,0.84,2.3,Tumor,Denmark,1,0,*4
+"Lei, 2016",2016,27648149,1.95,0.88,4.3,Non-neoplastic,China,0,1,*10
+"Markkula, 2014",2014,24125101,0.5,0.07,3.82,Non-neoplastic,Sweden,1,0,*3 *4 *6 *10 *41
+"Mayer, 2019",2019,30542984,1.4,0.7,2.8,Non-neoplastic,U.S.,1,0,"*2, *3, *4, *5, *6, *9, *10, *35, *41"
+"Morrow, 2012",2012,21823108,2.67,0.47,15,Non-neoplastic,U.S.,1,0,AmpliChip CYP450
+"Mwinyi, 2014",2014,24682508,1,0.14,7.1,Non-neoplastic,Switzerland,1,0,*3 *4 *5 *6 *10 *41
+"Nowell, 2005",2005,15952058,0.67,0.33,1.35,Non-neoplastic,U.S.,1,0,"*3, *4, *6"
+"Okishiro, 2009",2009,19156902,0.6,0.18,1.98,Non-neoplastic,Japan,0,1,*10
+"Park, 2011",2011,21860550,5.59,0.93,33.5,Non-neoplastic,Korea,0,1,*2 *3 *4 *5 *10 *14 *18 *21 *41 *49 *52 *60
+"Rae, 2012",2012,22395643,0.99,0.48,2.08,Tumor,Multi-center,1,0,*2 *3 *4 *6 *10 *41
+"Regan, 2012",2012,22395644,0.57,0.26,1.23,Tumor,Multi-center,1,0,*2 *3 *4 *5 *6 *7 *10 *17 *41
+"Sanchez-Spitman, 2019",2019,30676859,0.93,0.53,1.64,Non-neoplastic,Multi-center,1,0,AmpliChip CYP450
+"Schroth, 2007",2007,18024866,1.63,1.07,2.46,Non-neoplastic,Germany,1,0,*4 *5 *10 *41
+"Sirachainan, 2012",2012,23226070,0.28,0.029,2.6,Non-neoplastic,Thailand,0,1,*10
+"Sukasem, 2012",2012,23167378,10.52,1.56,70.79,Non-neoplastic,Thailand,0,1,AmpliChip CYP450
+"Teh, 2012",2012,22183189,13.14,1.54,109.94,Non-neoplastic,Malaysia,0,1,*10
+"Thompson, 2011",2011,20809362,1.52,0.98,2.36,Tumor,U.K.,1,0,AmpliChip CYP450
+"Wegman, 2007",2007,17244352,0.33,0.08,1.43,Tumor,Sweden,1,0,*4
+"Xu, 2008",2008,18407954,4.7,1.1,20,Non-neoplastic,China,0,1,*10
+"Zhang, 2015",2015,25701109,1.92,0.88,4.22,Tumor,China,0,1,*10
