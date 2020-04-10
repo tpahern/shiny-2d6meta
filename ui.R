@@ -7,6 +7,7 @@ fluidPage(theme = shinytheme("cosmo"),
              windowTitle = "CYP2D6 META"),
 	
 	shiny::actionLink("startvid", label=h5("Watch introductory video"), width='100%', onclick="window.open('2d6meta_intro.mp4')"),
+	shiny::actionLink("startvid", label=h5("Read the accompanying paper"), width='100%', onclick="window.open('https://ebm.bmj.com/content/early/2020/04/09/bmjebm-2019-111308')"),
 	
 	busyIndicator(text="Calculations in progress...", wait=500),
 	
